@@ -134,7 +134,9 @@ In QGFD, **reality is woven from a deeper fabric**, and it is within this fabric
 
 The **Quantum Geometric Fabric (QGF)** forms the foundational layer of reality. We need to develop a mathematical framework for the QGF that allows both spacetime and quantum fields to emerge dynamically. A promising direction is to modify **Einstein's field equations** and the **Dirac equation** to include the effects of **Quantum Geometric Torsion (QGT)**, linking geometry and quantum fields.
 
-#### **a. Modified Einstein Field Equations with Torsion**
+# Quantum Geometric Field Dynamics (QGFD) Equations
+
+## a. Modified Einstein Field Equations
 
 In General Relativity, the Einstein field equations describe how matter and energy affect spacetime curvature:
 
@@ -149,42 +151,35 @@ Where:
 * T_μν is the energy-momentum tensor (matter and energy).
 * Q_μν is a **torsion tensor**, representing the effects of quantum geometry. This term encodes how spacetime "twists" at small scales due to interactions with quantum fields.
 
-The form of \( Q_{\mu\nu} \) would depend on the local quantum field interactions and the energy scale. For low energy scales, \( Q_{\mu\nu} \) would be negligible, leading to classical General Relativity, but at high energies (e.g., near black holes or at the Planck scale), the torsion term would dominate.
+The form of Q_μν would depend on the local quantum field interactions and the energy scale. For low energy scales, Q_μν would be negligible, leading to classical General Relativity, but at high energies (e.g., near black holes or at the Planck scale), the torsion term would dominate.
 
-#### **b. Torsion-Corrected Dirac Equation for Quantum Fields**
+## b. Torsion-Corrected Dirac Equation for Quantum Fields
 
 For quantum fields, we modify the **Dirac equation** (which governs the behavior of particles like electrons) to incorporate the effects of torsion:
 
-\[
-(i \gamma^\mu D_\mu - m) \psi = 0
-\]
+![Dirac Equation](https://latex.codecogs.com/gif.latex?%28i%20%5Cgamma%5E%5Cmu%20D_%5Cmu%20-%20m%29%20%5Cpsi%20%3D%200)
 
-In QGFD, the derivative term \( D_\mu \) would be replaced by a **torsion-corrected covariant derivative**:
+In QGFD, the derivative term D_μ would be replaced by a **torsion-corrected covariant derivative**:
 
-\[
-(i \gamma^\mu (\partial_\mu + \Gamma_\mu + \tau_\mu) - m) \psi = 0
-\]
+![Torsion-Corrected Dirac Equation](https://latex.codecogs.com/gif.latex?%28i%20%5Cgamma%5E%5Cmu%20%28%5Cpartial_%5Cmu%20&plus;%20%5CGamma_%5Cmu%20&plus;%20%5Ctau_%5Cmu%29%20-%20m%29%20%5Cpsi%20%3D%200)
 
 Where:
-- \( \Gamma_\mu \) is the spin connection (encodes how spacetime curvature affects the spinor field).
-- \( \tau_\mu \) is the **torsion connection**, which couples the quantum field to spacetime torsion.
+* Γ_μ is the spin connection (encodes how spacetime curvature affects the spinor field).
+* τ_μ is the **torsion connection**, which couples the quantum field to spacetime torsion.
 
 This modification would influence how quantum fields propagate in highly curved or twisted spacetime regions, leading to new predictions for particle behavior at very high energies (such as near black holes or during the early universe).
 
-#### **c. Energy-Dependent Spacetime and Field Equations**
+## c. Energy-Dependent Spacetime and Field Equations
 
 QGFD suggests that the **laws of physics are energy-dependent**, meaning the behavior of both spacetime and quantum fields changes as energy scales shift. This can be expressed as **running parameters** (similar to the running of coupling constants in quantum field theory):
 
-- **Torsion strength** \( \alpha_T(E) \) and **spacetime curvature** \( \alpha_R(E) \) could evolve with energy \( E \) based on renormalization group equations:
+* **Torsion strength** α_T(E) and **spacetime curvature** α_R(E) could evolve with energy E based on renormalization group equations:
 
-\[
-\frac{d \alpha_T}{d \ln E} = \beta_T(\alpha_T, \alpha_R)
-\]
-\[
-\frac{d \alpha_R}{d \ln E} = \beta_R(\alpha_T, \alpha_R)
-\]
+![Torsion Strength Evolution](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bd%20%5Calpha_T%7D%7Bd%20%5Cln%20E%7D%20%3D%20%5Cbeta_T%28%5Calpha_T%2C%20%5Calpha_R%29)
 
-Where \( \beta_T \) and \( \beta_R \) are the **beta functions** describing how torsion and spacetime curvature evolve at different energy scales. This energy dependence creates a **smooth transition** between the quantum regime (at small scales) and classical spacetime (at large scales).
+![Spacetime Curvature Evolution](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bd%20%5Calpha_R%7D%7Bd%20%5Cln%20E%7D%20%3D%20%5Cbeta_R%28%5Calpha_T%2C%20%5Calpha_R%29)
+
+Where β_T and β_R are the **beta functions** describing how torsion and spacetime curvature evolve at different energy scales. This energy dependence creates a **smooth transition** between the quantum regime (at small scales) and classical spacetime (at large scales).
 
 ---
 
