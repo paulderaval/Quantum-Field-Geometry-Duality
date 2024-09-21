@@ -138,20 +138,16 @@ The **Quantum Geometric Fabric (QGF)** forms the foundational layer of reality. 
 
 In General Relativity, the Einstein field equations describe how matter and energy affect spacetime curvature:
 
-\[
-R_{\mu\nu} - \frac{1}{2} g_{\mu\nu} R = 8 \pi G T_{\mu\nu}
-\]
+![Einstein Field Equations](https://latex.codecogs.com/gif.latex?R_%7B%5Cmu%5Cnu%7D%20-%20%5Cfrac%7B1%7D%7B2%7D%20g_%7B%5Cmu%5Cnu%7D%20R%20%3D%208%20%5Cpi%20G%20T_%7B%5Cmu%5Cnu%7D)
 
 In QGFD, we introduce a new term for **Quantum Geometric Torsion (QGT)** that modifies the spacetime curvature, especially at small scales. The modified Einstein equations could be expressed as:
 
-\[
-R_{\mu\nu} - \frac{1}{2} g_{\mu\nu} R + Q_{\mu\nu} = 8 \pi G T_{\mu\nu}
-\]
+![Modified Einstein Equations](https://latex.codecogs.com/gif.latex?R_%7B%5Cmu%5Cnu%7D%20-%20%5Cfrac%7B1%7D%7B2%7D%20g_%7B%5Cmu%5Cnu%7D%20R%20&plus;%20Q_%7B%5Cmu%5Cnu%7D%20%3D%208%20%5Cpi%20G%20T_%7B%5Cmu%5Cnu%7D)
 
 Where:
-- \( R_{\mu\nu} \) is the Ricci curvature tensor.
-- \( T_{\mu\nu} \) is the energy-momentum tensor (matter and energy).
-- \( Q_{\mu\nu} \) is a **torsion tensor**, representing the effects of quantum geometry. This term encodes how spacetime "twists" at small scales due to interactions with quantum fields.
+* R_μν is the Ricci curvature tensor.
+* T_μν is the energy-momentum tensor (matter and energy).
+* Q_μν is a **torsion tensor**, representing the effects of quantum geometry. This term encodes how spacetime "twists" at small scales due to interactions with quantum fields.
 
 The form of \( Q_{\mu\nu} \) would depend on the local quantum field interactions and the energy scale. For low energy scales, \( Q_{\mu\nu} \) would be negligible, leading to classical General Relativity, but at high energies (e.g., near black holes or at the Planck scale), the torsion term would dominate.
 
